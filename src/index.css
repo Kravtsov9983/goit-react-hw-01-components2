@@ -119,3 +119,51 @@ code {
 }
 
 /* FriendListItem */
+
+.transaction-history{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+}
+
+.history{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: #9bb4c2;
+  border-radius: 4px;
+}
+
+.transaction{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.transaction-box{
+  background-color: rgb(0, 183, 255);
+    width: 400px;
+    border-radius: 4px;
+}
+
+.transaction-name{
+  display: flex;
+  justify-content: space-around;
+}
+
+.th{
+  width: 133px;
+  display: flex;
+  justify-content: center;
+}
+
+.td{
+  width: 133px;
+  display: flex;
+    justify-content: center;
+    Text-transform: capitalize;
+}
